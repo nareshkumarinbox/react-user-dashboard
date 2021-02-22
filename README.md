@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## This project highlited project Dependencies are below.\
+## Highlited project Dependencies
 
 ### Dependencies
     node, react, react-redux, @reduxjs/toolkit, axios,  
@@ -22,14 +22,14 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
 ### `npm run test:coverage`
 
-Launches the test runner in the code coverage report details and generate code coverage lcov-report in the `coverage/lcov-report` folder.\
+Launches the test runner with code coverage report details and generate code coverage lcov-report in the `coverage/lcov-report` folder.\
 To see coverage report in html format.\
-In the project directory, Navigate to coverage/lcov-report/index.html
-copy and Open lcov-report/index.html file path to view it in the browser
+In the project directory, Navigate to coverage/lcov-report/index.html.\
+Copy and Open lcov-report/index.html file path to view it in the browser
 
 
 ### `npm run build`
