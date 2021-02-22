@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif,
+}
+
+input, button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/** Login css **/
+
+.login-form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dee1e4;
+}
+
+form {
+  display: block;
+  position: relative;
+}
+
+form:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top:-5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: 1;
+  background-image: linear-gradient(to bottom right, #f08242, #FE4880);
+}
+
+form .form-inner {
+  position: relative;
+  display: block;
+  background-color: #FFF;
+  padding: 50px;
+  z-index: 2;
+}
+form .form-inner .title {
+  color: #888888;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+form .form-inner .form-group {
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+}
+form .form-inner .form-group label {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  transition: 0.4ms;
+}
+form .form-inner .form-group:focus-within label {
+  color: #FE4880;
+}
+
+form .form-inner .form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+form .form-inner .form-group input:focus {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 1.2);
+} 
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.btn-primary {
+  background-color: #007bff;
+  color: #FFF;
+}
+.btn-danger {
+  background-color: #a94442;
+  color: #FFF;
+}
+
+
+form .error {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+/** Dashboard css **/
+.dash-board {
+  display: block;
+}
+.dash-board .nav-bar {
+  width: 100%;
+  background-color: #22064e;
+  color:#FFF;
+  height: 50px;
+}
+.dash-board .nav-bar div{
+  display:inline-block;
+}
+.dash-board .nav-bar .logo {
+  color: #007bff;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+}
+.dash-board .nav-bar .band {
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+}
+.dash-board .nav-bar .user-details {
+  float: right;
+  position: relative;
+}
+.dash-board .user-name {
+  color: #d48113;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/**blog **/
+.blog  {
+  margin-top: 10px;
+}
+.blog > .blog-post {
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding: 0px 15px;
+  width: 20%;
+  border: 1px solid #888888;
+  border-radius: 2px;
+}
+.blog > .blog-post .post-title {
+  color: #888888;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.blog .blog-post .post-body {
+  padding: 10px;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
